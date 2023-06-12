@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="CIVILIZATION_FUNNY_VALENTINE"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_FUNNY_VALENTINE" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_FUNNY_VALENTINE</CivilizationType>
+			<Name>LOC_CIVILIZATION_FUNNY_VALENTINE_NAME</Name>
+			<Description>LOC_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_FUNNY_VALENTINE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" LeaderType="LEADER_FUNNY_VALENTINE" CapitalName="LOC_CITIZEN_AMERICA_MALE_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" TraitType="TRAIT_CIVILIZATION_FUNNY_VALENTINE" />
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" TraitType="TRAIT_CIVILIZATION_UNIT_AMERICAN_P51"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" TraitType="TRAIT_CIVILIZATION_BUILDING_FILM_STUDIO"/>
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_FUNNY_VALENTINE"                                      Name="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_NAME"                          Description="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- 科学力 -25% -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_SCIENCE_ORG_INCREASE_1000</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_FOOD_ORG_INCREASE_1000</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_PRODUCTION_ORG_INCREASE_1000</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_GOLD_ORG_INCREASE_1000</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_CULTURE_ORG_INCREASE_1000</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FUNNY_VALENTINE</TraitType>
+			<ModifierId>TRAIT_FAITH_ORG_INCREASE_1000</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 科学力 -25% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOD_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_ORG_INCREASE_1000</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 科学力 -25% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOD_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOD_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_ORG_INCREASE_1000</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_ORG_INCREASE_1000</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_WASHINGTON"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_NEW_YORK"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_PHILADELPHIA"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_BOSTON"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_BALTIMORE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_CHARLESTON"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_NEW_ORLEANS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_CINCINNATI"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_LOS_ANGELES"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_ST_LOUIS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_CHICAGO"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_BUFFALO"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SAN_FRANCISCO"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_CLEVELAND"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_DETROIT"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_HOUSTON"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_ATLANTA"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_DALLAS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SAN_DIEGO"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_PHOENIX"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SAN_ANTONIO"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SAN_JOSE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SEATTLE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_PORTLAND"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_MIAMI"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_DENVER"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_JACKSONVILLE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_KANSAS_CITY"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_RICHMOND"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_PITTSBURGH"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_LAS_VEGAS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_ALBUQUERQUE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_MINNEAPOLIS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SPARKS"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_NASHVILLE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SAN_JUAN"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_PROVIDENCE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_SPRINGFIELD"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_BOISE"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" CityName="LOC_CITY_NAME_CENTRALIA"/>
+	</CityNames>
+
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" FeatureType="FEATURE_FLOODPLAINS" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_FUNNY_VALENTINE" Tier="5"/>
+	</StartBiasRivers>
+</GameData>

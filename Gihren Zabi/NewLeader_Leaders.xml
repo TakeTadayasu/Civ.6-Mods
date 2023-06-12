@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="LEADER_MYSUPERLEADER"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_MYSUPERLEADER" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_MYSUPERLEADER</LeaderType>
+			<Name>LOC_LEADER_MYSUPERLEADER_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MYSUPERLEADER" Quote="LOC_LEADER_MYSUPERLEADER_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MYSUPERLEADER" TraitType="TRAIT_LEADER_MYSUPERLEADER"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_MYSUPERLEADER" Name="LOC_TRAIT_LEADER_MYSUPERLEADER_NAME" Description="LOC_TRAIT_LEADER_MYSUPERLEADER_DESCRIPTION"/>
+	</Traits>
+	<!-- 仕様する特性の指定 -->
+	<TraitModifiers>
+		<!-- 戦争疲弊無し -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_TOWORLDSEND_NO_WAR_WEARINESS</ModifierId>
+		</Row>
+		<!-- 占領時の世界遺産による回復 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE</ModifierId>
+		</Row>
+		<!-- 宗教を創始できない -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_GAINS_FOUNDER_BELIEF_MAJORITY_RELIGION</ModifierId>
+		</Row>
+		<!-- 山岳に市民を配置 -->
+		<!-- <Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+		</Row> -->
+		<!-- 山岳から食料+3 -->
+		<!-- <Row>
+			<TraitType>TRAIT_LEADER_MYSUPERLEADER</TraitType>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_LEADER_MYSUPERLEADER</ModifierId>
+		</Row> -->
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<!-- <Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_LEADER_MYSUPERLEADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId>
+		</Row>
+	</Modifiers> -->
+	<!-- 特性のパラメータ -->
+	<!-- <ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_LEADER_MYSUPERLEADER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOOD_MOUNTAIN_LEADER_MYSUPERLEADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments> -->
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MYSUPERLEADER" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_MYSUPERLEADER" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="SampleLeaderWonders"/>
+		<Row ListType="SampleLeaderCivics"/>
+		<Row ListType="SampleLeaderTechs"/>
+		<Row ListType="SampleLeaderDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="SampleLeaderWonders"  LeaderType="TRAIT_LEADER_MYSUPERLEADER" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="SampleLeaderCivics"   LeaderType="TRAIT_LEADER_MYSUPERLEADER" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="SampleLeaderTechs"    LeaderType="TRAIT_LEADER_MYSUPERLEADER" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="SampleLeaderDistrict" LeaderType="TRAIT_LEADER_MYSUPERLEADER" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、エッフェル塔 -->
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="SampleLeaderWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<!-- 社会制度 -->
+		<!-- 政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化-->
+		<Row ListType="SampleLeaderCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="SampleLeaderCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="SampleLeaderCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="SampleLeaderCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="SampleLeaderCivics" Item="CIVIC_URBANIZATION"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、印刷、コンピューター、工業化 -->
+		<Row ListType="SampleLeaderTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_PRINTING"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="SampleLeaderTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、工業地帯 -->
+		<Row ListType="SampleLeaderDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="SampleLeaderDistrict" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+	</AiFavoredItems>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_MYSUPERLEADER" BackgroundImage="hogehoge_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_MYSUPERLEADER" ForegroundImage="hogehoge_LoadingInfo_Foreground.dds" BackgroundImage="hogehoge_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_MYSUPERLEADER_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

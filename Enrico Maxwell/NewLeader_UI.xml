@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Improvements>
+		<!-- 石工術で解禁 -->
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" Name="LOC_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_NAME" Description="LOC_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_DESCRIPTION" 
+			 Icon="ICON_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_ASTROLOGY"
+			 SameAdjacentValid="false" TraitType="MINOR_CIV_ARMAGH_TRAIT" ReligiousUnitHealRate="15"/>
+			 TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA"/>
+	</Improvements>
+	<!-- 隣接ボーナスの参照先 -->
+	<Improvement_Adjacencies>
+	</Improvement_Adjacencies>
+	<!-- 改善できる地形 -->
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<!-- 改善できる特徴 -->
+	<Improvement_ValidFeatures>
+	</Improvement_ValidFeatures>
+	<!-- 改善を行うユニット -->
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<!-- 出力 -->
+	<Improvement_YieldChanges>
+		<!-- 文化力+0の記述の必要性：技術取得で増えるようにするため -->
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldType="YIELD_FOOD" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<!-- 社会制度・テクノロジー取得による追加ボーナス -->
+	<Improvement_BonusYieldChanges>
+	</Improvement_BonusYieldChanges>
+	<!-- 観光力 -->
+	<Improvement_Tourism>
+	</Improvement_Tourism>
+	<!-- 隣接ボーナス詳細 -->
+	<Adjacency_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="NaturalWonder_Faith"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Mountain_Faith1"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Mountain_Faith2"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Mountain_Faith3"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Mountain_Faith4"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Mountain_Faith5"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="Forest_Faith"/>
+		<Row ImprovementType="IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" YieldChangeId="District_Faith"/>
+	</Adjacency_YieldChanges>
+</GameData>

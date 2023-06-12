@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="181f371b-5848-4c41-9a8d-1a82a1c3abe1" version="1">
+  <Properties>
+    <Name>Funny Valentine</Name>
+    <Description>実況動画用</Description>
+    <Created>1686550224</Created>
+    <Teaser>実況動画用</Teaser>
+    <Authors>Take Tadayasu</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="LeaderCriteria">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_ENRICO_MAXWELL</LeaderPlayable>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>NewLeader_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>NewLeader_ConfigText.xml</File>
+      <File>NewLeader_ConfigTextJP.xml</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>NewLeader_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>Funny Valentine.dep</File>
+    </UpdateArt>
+    <UpdateColors id="ConfigColors">
+      <File>NewLeader_CoreColors.xml</File>
+      <File>NewLeader_PlayerColors.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>NewLeader_Leaders.xml</File>
+      <File>NewLeader_Civilizations.xml</File>
+      <File>NewLeader_Moments.xml</File>
+      <File>NewLeader_LeaderAnimations.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>NewLeader_ConfigText.xml</File>
+      <File>NewLeader_Text.xml</File>
+      <File>NewLeader_Dialogs.xml</File>
+      <File>NewLeader_DialogsJP.xml</File>
+      <File>NewLeader_ConfigTextJP.xml</File>
+      <File>NewLeader_TextJP.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>NewLeader_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LeaderCriteria</Criteria>
+      <File>Funny Valentine.dep</File>
+    </UpdateArt>
+    <ImportFiles id="Import">
+      <File>Textures/FUNNY_VALENTINE_DiplomacyInfo_Background.dds</File>
+      <File>Textures/FUNNY_VALENTINE_LoadingInfo_Background.dds</File>
+      <File>Textures/FUNNY_VALENTINE_LoadingInfo_Foreground.dds</File>
+    </ImportFiles>
+    <UpdateColors id="Colors">
+      <File>NewLeader_CoreColors.xml</File>
+      <File>NewLeader_PlayerColors.xml</File>
+    </UpdateColors>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/Districts.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Improvements.artdef</File>
+    <File>ArtDefs/Landmarks.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Funny Valentine.dep</File>
+    <File>NewLeader_Civilizations.xml</File>
+    <File>NewLeader_Config.xml</File>
+    <File>NewLeader_ConfigText.xml</File>
+    <File>NewLeader_ConfigTextJP.xml</File>
+    <File>NewLeader_CoreColors.xml</File>
+    <File>NewLeader_Dialogs.xml</File>
+    <File>NewLeader_DialogsJP.xml</File>
+    <File>NewLeader_Icons.xml</File>
+    <File>NewLeader_LeaderAnimations.xml</File>
+    <File>NewLeader_Leaders.xml</File>
+    <File>NewLeader_Moments.xml</File>
+    <File>NewLeader_PlayerColors.xml</File>
+    <File>NewLeader_Text.xml</File>
+    <File>NewLeader_TextJP.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/MacOS/BLPs/UI/NewLeader_Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UI/NewLeader_Icons.blp</File>
+    <File>Textures/FALLBACK_DEFEAT_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_DEFEAT_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FALLBACK_HAPPY_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_HAPPY_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FALLBACK_NEUTRAL_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_STERN_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_STERN_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FALLBACK_SURPRISED_AI_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_SURPRISED_AI_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_SURPRISED_HUMAN_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FALLBACK_UNHAPPY_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/FALLBACK_UNHAPPY_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>Textures/FUNNY_VALENTINE_DiplomacyInfo_Background.dds</File>
+    <File>Textures/FUNNY_VALENTINE_LoadingInfo_Background.dds</File>
+    <File>Textures/FUNNY_VALENTINE_LoadingInfo_Foreground.dds</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE256.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE256.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE32.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE32.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE45.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE45.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE50.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE50.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE55.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE55.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE64.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE64.tex</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE80.DDS</File>
+    <File>Textures/ICON_LEADER_FUNNY_VALENTINE80.tex</File>
+    <File>Textures/LEADER_FUNNY_VALENTINE_NEUTRAL.dds</File>
+    <File>Textures/PORTRAIT_LEADER_FUNNY_VALENTINE.dds</File>
+    <File>Textures/PORTRAIT_LEADER_FUNNY_VALENTINE.tex</File>
+    <File>XLPs/NewLeader_Icons.xlp</File>
+  </Files>
+</Mod>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_CIVILIZATION_MYORIGINAL_WAR_CART" Texture="Moment_UniqueUnit_Sumerian.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE" Texture="MomentXP2_BuildingSuguba.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_CIVILIZATION_MYORIGINAL_CUSTOM_WORKSHOP" Texture="Moment_DistrictBuiltIndustrial.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_CIVILIZATION_MYORIGINAL_BUDDHA" Texture="Moment_Infrastructure_Scythia.dds"/>
+	</MomentIllustrations>
+</GameData>

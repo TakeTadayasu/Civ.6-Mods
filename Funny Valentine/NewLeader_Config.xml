@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FUNNY_VALENTINE</CivilizationType>
+			<LeaderType>LEADER_FUNNY_VALENTINE</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_FUNNY_VALENTINE_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_FUNNY_VALENTINE</CivilizationIcon>
+			<LeaderName>LOC_LEADER_FUNNY_VALENTINE_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_FUNNY_VALENTINE</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_FUNNY_VALENTINE</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_FUNNY_VALENTINE_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_FUNNY_VALENTINE_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_FUNNY_VALENTINE</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_FUNNY_VALENTINE</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FUNNY_VALENTINE</CivilizationType>
+			<LeaderType>LEADER_FUNNY_VALENTINE</LeaderType>
+			<Type>UNIT_AMERICAN_P51</Type>
+			<Icon>ICON_UNIT_AMERICAN_P51</Icon>
+			<Name>LOC_UNIT_AMERICAN_P51_NAME</Name>
+			<Description>LOC_UNIT_AMERICAN_P51_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_FUNNY_VALENTINE</CivilizationType>
+			<LeaderType>LEADER_FUNNY_VALENTINE</LeaderType>
+			<Type>BUILDING_FILM_STUDIO</Type>
+			<Icon>ICON_BUILDING_FILM_STUDIO</Icon>
+			<Name>LOC_BUILDING_FILM_STUDIO_NAME</Name>
+			<Description>LOC_BUILDING_FILM_STUDIO_DESCRIPTION</Description>
+			<SortIndex>30</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="CIVILIZATION_ENRICO_MAXWELL"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_ENRICO_MAXWELL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_ENRICO_MAXWELL</CivilizationType>
+			<Name>LOC_CIVILIZATION_ENRICO_MAXWELL_NAME</Name>
+			<Description>LOC_CIVILIZATION_ENRICO_MAXWELL_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_ENRICO_MAXWELL_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" LeaderType="LEADER_ENRICO_MAXWELL" CapitalName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TraitType="TRAIT_CIVILIZATION_ENRICO_MAXWELL" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA"/>
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_ENRICO_MAXWELL"                                      Name="LOC_TRAIT_CIVILIZATION_ENRICO_MAXWELL_NAME"                           Description="LOC_TRAIT_CIVILIZATION_ENRICO_MAXWELL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART"           Name="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA"      Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_NAME"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- 科学力 -25% -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_SCIENCE_ORG_DECREASE</ModifierId>
+		</Row>
+		<!-- 聖戦(実態はバビロン陥落) -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_NO_OCCUPATION_PENALTIES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_WARMONGER_MAX</ModifierId>
+		</Row>
+		<!-- 信仰心による購入 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_MELEE_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_RANGED_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_SIEGE_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_HEAVY_CAVALRY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_LIGHT_CAVALRY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_RANGED_CAVALRY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_ANTI_CAVALRY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_HEAVY_CHARIOT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_LIGHT_CHARIOT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_BATTERING_RAM_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ENRICO_MAXWELL</TraitType>
+			<ModifierId>TRAIT_ORG_RECON_FAITH</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 科学力 -25% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_DECREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!-- 信仰心による購入 -->
+		<Row>
+			<ModifierId>TRAIT_ORG_MELEE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RANGED_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_SIEGE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_HEAVY_CAVALRY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_LIGHT_CAVALRY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RANGED_CAVALRY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_ANTI_CAVALRY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_HEAVY_CHARIOT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_LIGHT_CHARIOT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_BATTERING_RAM_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RECON_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 科学力 -25% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_DECREASE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_ORG_DECREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-25</Value>
+		</Row>
+		<!-- 信仰心による購入 -->
+		<Row>
+			<ModifierId>TRAIT_ORG_MELEE_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RANGED_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_SIEGE_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_HEAVY_CAVALRY_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_LIGHT_CAVALRY_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RANGED_CAVALRY_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RANGED_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_ANTI_CAVALRY_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_HEAVY_CHARIOT_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_HEAVY_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_LIGHT_CHARIOT_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LIGHT_CHARIOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_BATTERING_RAM_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_BATTERING_RAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ORG_RECON_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_RECON</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_MALE_5"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CitizenName="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" CityName="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_13" />
+	</CityNames>
+
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" FeatureType="FEATURE_FLOODPLAINS" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_ENRICO_MAXWELL" Tier="5"/>
+	</StartBiasRivers>
+</GameData>

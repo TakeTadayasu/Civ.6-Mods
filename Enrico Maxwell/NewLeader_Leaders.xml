@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="LEADER_ENRICO_MAXWELL"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_ENRICO_MAXWELL" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_ENRICO_MAXWELL</LeaderType>
+			<Name>LOC_LEADER_ENRICO_MAXWELL_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ENRICO_MAXWELL" Quote="LOC_LEADER_ENRICO_MAXWELL_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ENRICO_MAXWELL" TraitType="TRAIT_LEADER_ENRICO_MAXWELL"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" Name="LOC_TRAIT_LEADER_ENRICO_MAXWELL_NAME" Description="LOC_TRAIT_LEADER_ENRICO_MAXWELL_DESCRIPTION"/>
+	</Traits>
+	<!-- 仕様する特性の指定 -->
+	<TraitModifiers>
+		<!-- 異なる宗教が主流のユニットへの戦闘ボーナス＋５ -->
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="TRAIT_COMBAT_BONUS_OTHER_RELIGION"/>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="TRAIT_ADJUST_INQUISITOR_CHARGES"/>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="BONUS_VS_WOUNDED_UNITS"/>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="HEAL_AFTER_DEFEATING_UNIT"/>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="UNIQUE_LEADER_CULTURE_KILLS"/>
+		<Row TraitType="TRAIT_LEADER_ENRICO_MAXWELL" ModifierId="UNIQUE_LEADER_CULTURE_KILLS_GRANT_ABILITY"/>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+	</ModifierArguments>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ENRICO_MAXWELL" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_ENRICO_MAXWELL" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="EnricoMaxwellWonders"/>
+		<Row ListType="EnricoMaxwellCivics"/>
+		<Row ListType="EnricoMaxwellTechs"/>
+		<Row ListType="EnricoMaxwellDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="EnricoMaxwellWonders"  LeaderType="TRAIT_LEADER_ENRICO_MAXWELL" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="EnricoMaxwellCivics"   LeaderType="TRAIT_LEADER_ENRICO_MAXWELL" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="EnricoMaxwellTechs"    LeaderType="TRAIT_LEADER_ENRICO_MAXWELL" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="EnricoMaxwellDistrict" LeaderType="TRAIT_LEADER_ENRICO_MAXWELL" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、エッフェル塔 -->
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="EnricoMaxwellWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<!-- 社会制度 -->
+		<!-- 政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化-->
+		<Row ListType="EnricoMaxwellCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="EnricoMaxwellCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="EnricoMaxwellCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="EnricoMaxwellCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="EnricoMaxwellCivics" Item="CIVIC_URBANIZATION"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、印刷、コンピューター、工業化 -->
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_PRINTING"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="EnricoMaxwellTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、工業地帯 -->
+		<Row ListType="EnricoMaxwellDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="EnricoMaxwellDistrict" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+	</AiFavoredItems>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_ENRICO_MAXWELL" BackgroundImage="ENRICO_MAXWELL_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ENRICO_MAXWELL" ForegroundImage="ENRICO_MAXWELL_LoadingInfo_Foreground.dds" BackgroundImage="ENRICO_MAXWELL_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_ENRICO_MAXWELL_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

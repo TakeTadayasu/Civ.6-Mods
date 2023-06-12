@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_ENRICO_MAXWELL_NAME" Language="ja_JP">
+			<Text>バチカン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ENRICO_MAXWELL_DESCRIPTION" Language="ja_JP">
+			<Text>神聖なるバチカン</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_ENRICO_MAXWELL_ADJECTIVE" Language="ja_JP">
+			<Text>バチカンの</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ENRICO_MAXWELL_NAME" Language="ja_JP">
+			<Text>教皇の御者</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ENRICO_MAXWELL_DESCRIPTION" Language="ja_JP">
+			<Text>聖戦（奇襲戦争）を宣言した際に正式宣戦と同等の不平と好戦性ペナルティしか受けない。聖戦を宣言してから10ターンの間、すべてのユニットの移動力+2。占領中の都市に軍事ユニットが駐留している場合、ターン毎の忠誠心+5。信仰心により陸上ユニットが購入可能。ただし科学力の算出が２５％低下する。</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_ENRICO_MAXWELL_NAME" Language="ja_JP">
+			<Text>エンリコ・マクスウェル</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENRICO_MAXWELL_NAME" Language="ja_JP">
+			<Text>イスカリオテ機関</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_ENRICO_MAXWELL_DESCRIPTION" Language="ja_JP">
+			<Text>他宗教を信仰する文明への戦闘力＋５。すべてのユニットは、負傷しているユニットに対して戦闘力＋５、また、敵対するユニットを撃破した際にＨＰが３０回復する。敵対するユニットを撃破した際に撃破したユニットの基礎戦闘力の50%に相当する文化力を得る現在セット中の軍事政策カード1つにつきすべてのユニットの戦闘力＋１。</Text>
+		</Row>
+		
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART_NAME" Language="ja_JP">
+			<Text>神罰の地上代行者</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART_DESCRIPTION" Language="ja_JP">
+			<Text>イスカリオテ機関（ヴァチカン法王庁特務局第十三課）の非公式特務の実行部隊。1タイル以内に宗教ユニットがいると戦闘力+10。このユニットが都市を制圧するか、隣接した状態で都市を制圧すると、その都市をプレイヤーの優勢宗教に改宗させることができる。体力の低下による戦闘力低下の影響を受けない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART_NAME" Language="ja_JP">
+			<Text>イスカリオテ機関　ユニット：神罰の地上代行者</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_ENRICO_MAXWELL_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>カトリックにおける神の代理人であり神罰の地上代行者として、悪魔退治、異教弾圧、異端殲滅のプロフェッショナル達。</Text>
+		</Replace>
+
+		<!-- UD -->
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>ローマ・カトリック協会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE_DESCRIPTION" Language="ja_JP">
+			<Text>聖地の代替。聖地よりも低コストで建造が可能。大預言者ポイント+3。この都市では、ユニット、建造物、区域を購入するときのゴールドと信仰力のコストが20％低下する。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>バチカンの区域: ローマ・カトリック協会</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_CIVILIZATION_ENRICO_MAXWELL_ECHONOMIC_ZONE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ローマ・カトリック協会の歴史</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_ENRICO_MAXWELL" Language="ja_JP">
+			<Text>聖地より低コストで建造可能。遺物のスロットを２つ持つ。</Text>
+		</Replace>
+
+		<!-- UI -->
+		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_NAME" Language="ja_JP">
+			<Text>修道院</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_Production] 生産力+1、[ICON_Culture] 文化力+1、[ICON_Food] 文化力+1、[ICON_Faith] 信仰力+2。このタイルにいて、なおかつこのターン中に攻撃をおこなわなかった味方宗教ユニットのHP+15。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_NAME" Language="ja_JP">
+			<Text>バチカンの地形改善: 修道院</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_IMPROVEMENT_CIVILIZATION_ENRICO_MAXWELL_BUDDHA_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

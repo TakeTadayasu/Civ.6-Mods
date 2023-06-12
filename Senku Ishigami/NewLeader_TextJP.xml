@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SENKU_ISHIGAMI_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>根っからの科学オタクで、「科学は地道な探求」という持論を持つ。科学の力で全人類を復活させることを目標として「科学王国」を設立する。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SENKU_ISHIGAMI_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>根っからの科学オタクで、「科学は地道な探求」という持論を持つ。科学の力で全人類を復活させることを目標として「科学王国」を設立する。</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SENKU_ISHIGAMI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>根っからの科学オタクで、「科学は地道な探求」という持論を持つ。科学の力で全人類を復活させることを目標として「科学王国」を設立する。</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_SENKU_ISHIGAMI_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>根っからの科学オタクで、「科学は地道な探求」という持論を持つ。科学の力で全人類を復活させることを目標として「科学王国」を設立する。</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_1" Language="ja_JP">
+			<Text>大木大樹</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_2" Language="ja_JP">
+			<Text>浅霧幻</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_3" Language="ja_JP">
+			<Text>クロム</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_4" Language="ja_JP">
+			<Text>金狼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_5" Language="ja_JP">
+			<Text>銀狼</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_1" Language="ja_JP">
+			<Text>小川杠</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_2" Language="ja_JP">
+			<Text>コハク</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_3" Language="ja_JP">
+			<Text>ルリ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_4" Language="ja_JP">
+			<Text>スイカ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_5" Language="ja_JP">
+			<Text>ルビィ</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_1" Language="ja_JP">
+			<Text>石神村</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_2" Language="ja_JP">
+			<Text>宝島</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_3" Language="ja_JP">
+			<Text>サクラメント</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_4" Language="ja_JP">
+			<Text>ソユーズ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_5" Language="ja_JP">
+			<Text>鉄犬</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_6" Language="ja_JP">
+			<Text>マグマ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_7" Language="ja_JP">
+			<Text>マントル</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_8" Language="ja_JP">
+			<Text>カセキ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_9" Language="ja_JP">
+			<Text>サファイア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_10" Language="ja_JP">
+			<Text>ガーネット</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_11" Language="ja_JP">
+			<Text>ガンエン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_12" Language="ja_JP">
+			<Text>ジャスパー</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_13" Language="ja_JP">
+			<Text>ターコイズ</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_SENKU_ISHIGAMI_QUOTE" Language="ja_JP">
+			<Text>唆るぜ、これは</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_SENKU_ISHIGAMI_DOM_TEXT" Language="ja_JP">
+			<Text>科学の力で全人類を復活させるため科学王国を繫栄させ、石化の謎を解くため宇宙を目指すのだ。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

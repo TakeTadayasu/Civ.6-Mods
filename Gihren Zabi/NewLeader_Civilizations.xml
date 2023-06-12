@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="CIVILIZATION_MYORIGINAL"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_MYORIGINAL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_MYORIGINAL_CUSTOM_WORKSHOP" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_MYORIGINAL_BUDDHA" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_MYORIGINAL</CivilizationType>
+			<Name>LOC_CIVILIZATION_MYORIGINAL_NAME</Name>
+			<Description>LOC_CIVILIZATION_MYORIGINAL_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_MYORIGINAL_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_ASIAN</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" LeaderType="LEADER_MYSUPERLEADER" CapitalName="LOC_CIVLIZATION_MYORIGINAL_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" TraitType="TRAIT_CIVILIZATION_MYORIGINAL" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE"/>
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_MYORIGINAL"                                      Name="LOC_TRAIT_CIVILIZATION_MYORIGINAL_NAME"                           Description="LOC_TRAIT_CIVILIZATION_MYORIGINAL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART"           Name="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_MYORIGINAL_CUSTOM_WORKSHOP" Name="LOC_TRAIT_CIVILIZATION_BUILDING_CIVILIZATION_MYORIGINAL_CUSTOM_WORKSHOP"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_MYORIGINAL_BUDDHA"      Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_CIVILIZATION_MYORIGINAL_BUDDHA"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- ワイルドカードスロット+1 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MYORIGINAL</TraitType>
+			<ModifierId>TRAIT_MILITARY_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MYORIGINAL</TraitType>
+			<ModifierId>TRAIT_STRATEGIC_MINE_GOLD_CIVILIZATION_MYORIGINAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MYORIGINAL</TraitType>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION_CIVILIZATION_MYORIGINAL</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 戦略資源の鉱山からゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_GOLD_CIVILIZATION_MYORIGINAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION_CIVILIZATION_MYORIGINAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 戦略資源の鉱山からゴールド+1 -->
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_GOLD_CIVILIZATION_MYORIGINAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_GOLD_CIVILIZATION_MYORIGINAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- 戦略資源の鉱山から生産力+1 -->
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION_CIVILIZATION_MYORIGINAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION_CIVILIZATION_MYORIGINAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_MALE_5"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CitizenName="LOC_CITIZEN_MYORIGINAL_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" CityName="LOC_CIVLIZATION_MYORIGINAL_CITY_13" />
+	</CityNames>
+
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" FeatureType="FEATURE_FLOODPLAINS" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_MYORIGINAL" Tier="5"/>
+	</StartBiasRivers>
+</GameData>

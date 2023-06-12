@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/NewLeader_Icons"/>
+	<m_Entries>
+		<!-- Civilization -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_ENRICO_MAXWELL256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_ENRICO_MAXWELL256"/>
+		</Element>
+		<!-- Leader -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL32"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL45"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL50"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL55"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL64"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL80"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_ENRICO_MAXWELL256"/>
+			<m_ObjectName text="ICON_LEADER_ENRICO_MAXWELL256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

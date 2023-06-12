@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/NewLeader_Icons"/>
+	<m_Entries>
+		<!-- Civilization -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_FUNNY_VALENTINE256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_FUNNY_VALENTINE256"/>
+		</Element>
+		<!-- Leader -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE32"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE45"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE50"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE55"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE64"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE80"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_FUNNY_VALENTINE256"/>
+			<m_ObjectName text="ICON_LEADER_FUNNY_VALENTINE256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

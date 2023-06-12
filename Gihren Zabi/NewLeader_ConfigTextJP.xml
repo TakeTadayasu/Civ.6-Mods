@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_MYORIGINAL_NAME" Language="ja_JP">
+			<Text>ジオン公国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MYORIGINAL_DESCRIPTION" Language="ja_JP">
+			<Text>ジオン公国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_MYORIGINAL_ADJECTIVE" Language="ja_JP">
+			<Text>ジオン公国</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MYORIGINAL_NAME" Language="ja_JP">
+			<Text>スペースノイドの独立</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MYORIGINAL_DESCRIPTION" Language="ja_JP">
+			<Text>政府の軍事カード政策スロットが1つ増える。戦略資源の鉱山に[ICON_Production] 生産力+1、[ICON_Science] 科学力+1。</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_MYSUPERLEADER_NAME" Language="ja_JP">
+			<Text>ギレン・ザビ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MYSUPERLEADER_NAME" Language="ja_JP">
+			<Text>ヒトラーの尻尾</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MYSUPERLEADER_DESCRIPTION" Language="ja_JP">
+			<Text>宗教の創始ができない。戦争疲弊が発生せず、世界遺産のある都市を占領するとユニットの耐久値が全回復する。</Text>
+		</Row>
+		
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART_NAME" Language="ja_JP">
+			<Text>ザクII</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART_DESCRIPTION" Language="ja_JP">
+			<Text>ジオン公国軍の主力量産型モビルスーツ。ロボット工学で解除される。GDRより性能は低いがコストが安く資源を必要としない。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART_NAME" Language="ja_JP">
+			<Text>ジオン公国 固有のユニット: ザクII</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_MYORIGINAL_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>頭部のモノアイ（一つ目）・カメラに、左肩の3本のスパイク、右肩の逆L字型のシールド、および各部の動力パイプが特徴の初期量産型モビルスーツ。</Text>
+		</Replace>
+
+		<!-- UD -->
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>宇宙港</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE_DESCRIPTION" Language="ja_JP">
+			<Text>ジオン公国の固有区域。スペースポートに取って代わり、より安価に建設できる。隣接する工業地帯区域1つにつき [ICON_Gold] ゴールド+1。貿易の出力[ICON_Production] 生産力+1、[ICON_Gold] ゴールド+3、[ICON_Science] 科学力+3。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>ジオン公国 固有の区域: 宇宙港</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_CIVILIZATION_MYORIGINAL_ECHONOMIC_ZONE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text></Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_MYORIGINAL" Language="ja_JP">
+			<Text>隣接する工業地帯区域により [ICON_Gold] ゴールド+{1_num}。貿易の出力[ICON_Production] 生産力+1、[ICON_Gold] ゴールド+3、[ICON_Science] 科学力+3。</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

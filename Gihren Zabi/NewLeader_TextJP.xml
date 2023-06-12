@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>ジオン公国軍の総帥。卓越した政治・軍事手腕を持ち、感情で動くことのない冷徹な政治家。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>ジオン公国軍の総帥にして、卓越した政治・軍事手腕を持ち。感情で動くことのない冷徹な政治家</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>地球周回軌道上で、地球からは最も遠い月の裏側L2点付近に位置するサイド3に本拠を置くスペースコロニー国家であるジオン公国。その総帥であるギレン・ザビはジオニズムを胸に、いま立ち上がる。</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MYORIGINAL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>地球周回軌道上で、地球からは最も遠い月の裏側L2点付近に位置するサイド3に本拠を置くスペースコロニー国家。首都はズム・シティ。ジオニズムを国是と称するが、国政を掌握するザビ家的解釈によるジオニズムは「人の革新」を「選民」としている。形式的には国家元首は公王のデギン・ソド・ザビで、ダルシア・バハロ首相が政府の首班である。</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_1" Language="ja_JP">
+			<Text>デギン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_2" Language="ja_JP">
+			<Text>ドズル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_3" Language="ja_JP">
+			<Text>ガルマ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_4" Language="ja_JP">
+			<Text>シャア</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_5" Language="ja_JP">
+			<Text>デラーズ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_1" Language="ja_JP">
+			<Text>キシリア</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_2" Language="ja_JP">
+			<Text>ララァ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_3" Language="ja_JP">
+			<Text>シーマ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_4" Language="ja_JP">
+			<Text>ミネバ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_5" Language="ja_JP">
+			<Text>ハモン</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_1" Language="ja_JP">
+			<Text>ムンゾ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_2" Language="ja_JP">
+			<Text>ザーン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_3" Language="ja_JP">
+			<Text>ハッテ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_4" Language="ja_JP">
+			<Text>ムーア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_5" Language="ja_JP">
+			<Text>ルウム</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_6" Language="ja_JP">
+			<Text>リーア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_7" Language="ja_JP">
+			<Text>ノア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_8" Language="ja_JP">
+			<Text>ガイア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_9" Language="ja_JP">
+			<Text>ルナ２</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_10" Language="ja_JP">
+			<Text>ジュピトリス</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_11" Language="ja_JP">
+			<Text>アクシズ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_12" Language="ja_JP">
+			<Text>ソロモン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_13" Language="ja_JP">
+			<Text>ア・バオア・クー</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_14" Language="ja_JP">
+			<Text>茨の園</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_MYSUPERLEADER_QUOTE" Language="ja_JP">
+			<Text>立てよ！国民！</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_MYSUPERLEADER_DOM_TEXT" Language="ja_JP">
+			<Text>ジオン公国軍の総帥。卓越した政治・軍事手腕を持ち、感情で動くことのない冷徹な政治家であるギレン・ザビよ。真のスペースノイドの独立を勝ち取るため、今、立ち上がるのだ。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

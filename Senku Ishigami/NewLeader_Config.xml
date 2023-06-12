@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Players>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SENKU_ISHIGAMI</CivilizationType>
+			<LeaderType>LEADER_SENKU_ISHIGAMI</LeaderType>
+			<CivilizationName>LOC_CIVILIZATION_SENKU_ISHIGAMI_NAME</CivilizationName>
+			<CivilizationIcon>ICON_CIVILIZATION_SENKU_ISHIGAMI</CivilizationIcon>
+			<LeaderName>LOC_LEADER_SENKU_ISHIGAMI_NAME</LeaderName>
+			<LeaderIcon>ICON_LEADER_SENKU_ISHIGAMI</LeaderIcon>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_NAME</CivilizationAbilityName>
+			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION</CivilizationAbilityDescription>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_SENKU_ISHIGAMI</CivilizationAbilityIcon>
+			<LeaderAbilityName>LOC_TRAIT_LEADER_SENKU_ISHIGAMI_NAME</LeaderAbilityName>
+			<LeaderAbilityDescription>LOC_TRAIT_LEADER_SENKU_ISHIGAMI_DESCRIPTION</LeaderAbilityDescription>
+			<LeaderAbilityIcon>ICON_LEADER_SENKU_ISHIGAMI</LeaderAbilityIcon>
+			<Portrait>PORTRAIT_LEADER_SENKU_ISHIGAMI</Portrait>
+		</Row>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SENKU_ISHIGAMI</CivilizationType>
+			<LeaderType>LEADER_SENKU_ISHIGAMI</LeaderType>
+			<Type>UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART</Type>
+			<Icon>ICON_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART</Icon>
+			<Name>LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME</Name>
+			<Description>LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_DESCRIPTION</Description>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_SENKU_ISHIGAMI</CivilizationType>
+			<LeaderType>LEADER_SENKU_ISHIGAMI</LeaderType>
+			<Type>DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE</Type>
+			<Icon>ICON_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE</Icon>
+			<Name>LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME</Name>
+			<Description>LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_DESCRIPTION</Description>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>

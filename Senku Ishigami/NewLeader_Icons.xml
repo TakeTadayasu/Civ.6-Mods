@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 文明 -->
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="22"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI22.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="30"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI30.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="36"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI36.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="44"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI44.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="45"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI45.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="48"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI48.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="50"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI50.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="64"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI64.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="80"   IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI80.dds"/>
+		<Row Name="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" IconSize="256"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_CIVILIZATION_SENKU_ISHIGAMI256.dds"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_SENKU_ISHIGAMI256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_SENKU_ISHIGAMI" Atlas="ICON_ATLAS_CIVILIZATION_SENKU_ISHIGAMI" Index="0"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_LEADER_SENKU_ISHIGAMI" Atlas="ICON_ATLAS_LEADER_SENKU_ISHIGAMI" Index="0"/>
+		<!-- UU(戦闘車の使いまわし) -->
+		<Row Name="ICON_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART"  Atlas="ICON_ATLAS_EXPANSION_1_UNITS" Index="3"/>
+		<Row Name="ICON_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_PORTRAIT"  Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="3"/>
+		<!-- UD(スペースポートの使いまわし) -->
+		<Row Name="ICON_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE"     Atlas="ICON_ATLAS_DISTRICTS"     Index="2"/>
+		<Row Name="ICON_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_FOW" Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="2"/>
+	</IconDefinitions>
+</GameData>

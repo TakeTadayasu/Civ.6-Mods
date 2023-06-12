@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="LEADER_FUNNY_VALENTINE"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_FUNNY_VALENTINE" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_FUNNY_VALENTINE</LeaderType>
+			<Name>LOC_LEADER_FUNNY_VALENTINE_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_FUNNY_VALENTINE" Quote="LOC_LEADER_FUNNY_VALENTINE_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_FUNNY_VALENTINE" TraitType="TRAIT_LEADER_FUNNY_VALENTINE"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_FUNNY_VALENTINE" Name="LOC_TRAIT_LEADER_FUNNY_VALENTINE_NAME" Description="LOC_TRAIT_LEADER_FUNNY_VALENTINE_DESCRIPTION"/>
+	</Traits>
+	<!-- 仕様する特性の指定 -->
+	<TraitModifiers>
+		<!-- 異なる宗教が主流のユニットへの戦闘ボーナス＋５ -->
+		<Row TraitType="TRAIT_LEADER_FUNNY_VALENTINE" ModifierId="SKIP_FREE_CITY"/>
+		<Row TraitType="TRAIT_LEADER_FUNNY_VALENTINE" ModifierId="IDENTITY_D4C_LOVE_TRAIN"/>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<Row>
+			<ModifierId>IDENTITY_D4C_LOVE_TRAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_IDENTITY_PER_TURN_FROM_NEARBY_GREAT_WORKS</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IDENTITY_D4C_LOVE_TRAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>IDENTITY_D4C_LOVE_TRAIN</ModifierId>
+			<Name>ForeignCities</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_FUNNY_VALENTINE" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_FUNNY_VALENTINE" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="FunnyValentineWonders"/>
+		<Row ListType="FunnyValentineCivics"/>
+		<Row ListType="FunnyValentineTechs"/>
+		<Row ListType="FunnyValentineDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="FunnyValentineWonders"  LeaderType="TRAIT_LEADER_FUNNY_VALENTINE" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="FunnyValentineCivics"   LeaderType="TRAIT_LEADER_FUNNY_VALENTINE" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="FunnyValentineTechs"    LeaderType="TRAIT_LEADER_FUNNY_VALENTINE" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="FunnyValentineDistrict" LeaderType="TRAIT_LEADER_FUNNY_VALENTINE" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、エッフェル塔 -->
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="FunnyValentineWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<!-- 社会制度 -->
+		<!-- 政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化-->
+		<Row ListType="FunnyValentineCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="FunnyValentineCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="FunnyValentineCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="FunnyValentineCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="FunnyValentineCivics" Item="CIVIC_URBANIZATION"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、印刷、コンピューター、工業化 -->
+		<Row ListType="FunnyValentineTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_PRINTING"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="FunnyValentineTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、工業地帯 -->
+		<Row ListType="FunnyValentineDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="FunnyValentineDistrict" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+	</AiFavoredItems>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_FUNNY_VALENTINE" BackgroundImage="FUNNY_VALENTINE_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_FUNNY_VALENTINE" ForegroundImage="FUNNY_VALENTINE_LoadingInfo_Foreground.dds" BackgroundImage="FUNNY_VALENTINE_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_FUNNY_VALENTINE_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

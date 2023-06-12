@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_NAME" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION" Language="en_US">
+			<Text>The Majestic Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_ADJECTIVE" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_NAME" Language="en_US">
+			<Text>Super Sample Civilization's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government. Mines over strategic resources provide +1 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_FUNNY_VALENTINE_NAME" Language="en_US">
+			<Text>Super Sample Leader</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FUNNY_VALENTINE_NAME" Language="en_US">
+			<Text>Super Sample Leader's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FUNNY_VALENTINE_DESCRIPTION" Language="en_US">
+			<Text>Extra territory upon founding cities. Citizens may work Mountain tiles. Mountain tiles provide +3 [ICON_FOOD] Food.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

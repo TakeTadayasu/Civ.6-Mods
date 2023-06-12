@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!-- 指導者 -->
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE32.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE45.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE50.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE55.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE64.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE80.dds"/>
+		<Row Name="ICON_ATLAS_LEADER_FUNNY_VALENTINE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_FUNNY_VALENTINE256.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!-- 文明 -->
+		<Row Name="ICON_CIVILIZATION_FUNNY_VALENTINE" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="2"/>
+		<!-- 指導者 -->
+		<Row Name="ICON_LEADER_FUNNY_VALENTINE" Atlas="ICON_ATLAS_LEADER_FUNNY_VALENTINE" Index="0"/>
+	</IconDefinitions>
+</GameData>

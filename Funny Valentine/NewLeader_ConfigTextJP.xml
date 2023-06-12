@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_NAME" Language="ja_JP">
+			<Text>並行世界のアメリカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION" Language="ja_JP">
+			<Text>アメリカ</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_FUNNY_VALENTINE_ADJECTIVE" Language="ja_JP">
+			<Text>アメリカ</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_NAME" Language="ja_JP">
+			<Text>聖人の遺体</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_FUNNY_VALENTINE_DESCRIPTION" Language="ja_JP">
+			<Text>全ての出力が＋１０００％となる。聖人の遺体がある限り、アメリカを「世界の全ての中心」でありつづける。</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_FUNNY_VALENTINE_NAME" Language="ja_JP">
+			<Text>ファニー・ヴァレンタイン</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FUNNY_VALENTINE_NAME" Language="ja_JP">
+			<Text>D4C-ラブトレイン-</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_FUNNY_VALENTINE_DESCRIPTION" Language="ja_JP">
+			<Text>自文明の都市にある傑作1つにつき、9タイル以内にある他国の都市のターン毎の忠誠心-15。忠誠心の低下によって他文明の都市が離反した際、自文明からの忠誠心への圧力が最も大きかった場合には、自由都市になる過程を経ずに自文明に加わる。
+			</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

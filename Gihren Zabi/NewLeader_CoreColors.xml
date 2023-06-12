@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<!-- 文明固有カラー -->
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_MYSUPERLEADER_PRIMARY</Type>
+			<Color>128,128,128,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_LEADER_MYSUPERLEADER_SECONDARY</Type>
+			<Color>160,0,160,255</Color>
+		</Row>
+	</Colors>
+</GameInfo>

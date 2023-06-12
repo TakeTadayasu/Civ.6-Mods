@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects:XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>252</build>
+		<revision>195</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/NewLeader_Icons"/>
+	<m_Entries>
+		<!-- Civilization -->
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_SENKU_ISHIGAMI256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_SENKU_ISHIGAMI256"/>
+		</Element>
+		<!-- Leader -->
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI32"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI45"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI50"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI55"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI64"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI80"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_SENKU_ISHIGAMI256"/>
+			<m_ObjectName text="ICON_LEADER_SENKU_ISHIGAMI256"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects:XLP>

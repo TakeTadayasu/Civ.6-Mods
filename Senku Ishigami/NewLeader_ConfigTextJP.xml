@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_NAME" Language="ja_JP">
+			<Text>科学王国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION" Language="ja_JP">
+			<Text>石の世界の科学王国</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_ADJECTIVE" Language="ja_JP">
+			<Text>科学王国の</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_NAME" Language="ja_JP">
+			<Text>科学復興・人類救出</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION" Language="ja_JP">
+			<Text>都市国家に戦争を宣言できない。奇襲戦争を宣言できないが、他文明も科学王国に奇襲戦争を宣言できない。政府の経済政策スロットが1つ増える。</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_SENKU_ISHIGAMI_NAME" Language="ja_JP">
+			<Text>石神千空</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_NAME" Language="ja_JP">
+			<Text>科学は地道な探求</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_TechBoosted] ひらめきと [ICON_CivicBoosted] 天啓によってもたらされるのが、社会制度と技術の40%ではなく10%になる。毎ターンの [ICON_SCiENCE] 科学力、[ICON_CULTURE]文化力100% 増加。</Text>
+		</Row>
+		
+		<!-- UU -->
+		<Replace Tag="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME" Language="ja_JP">
+			<Text>科学船ペルセウス</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_DESCRIPTION" Language="ja_JP">
+			<Text>英雄ペルセウスにちなんで名付けられた科学王国の機帆船。フリゲート艦の代替で蒸気機関で解放される。視界+1、外洋タイルでの戦闘では[ICON_STRENGTH]戦闘力+10ステルス状態の他ユニットの居場所が明らかにできる。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME" Language="ja_JP">
+			<Text>科学王国のユニット：科学船ペルセウス</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>英雄ペルセウスにちなんで名付けられた科学王国の機帆船。フリゲート艦の代替で蒸気機関で解放される。視界+1、外洋タイルでの戦闘では[ICON_STRENGTH]戦闘力+10ステルス状態の他ユニットの居場所が明らかにできる。</Text>
+		</Replace>
+
+		<!-- UD -->
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>天文台</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_DESCRIPTION" Language="ja_JP">
+			<Text>キャンパスの代替。キャンパスよりも低コストで建築できる。通常の隣接ボーナスに追加して農場：[ICON_SCiENCE] +0.5プランテーション：[ICON_SCiENCE] +2</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME" Language="ja_JP">
+			<Text>科学王国の区域: 天文台</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>科学王国の歴史</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SENKU_ISHIGAMI" Language="ja_JP">
+			<Text>キャンパスの代替。キャンパスよりも低コストで建築できる。通常の隣接ボーナスに追加して農場：[ICON_SCiENCE] +0.5プランテーション：[ICON_SCiENCE] +2</Text>
+		</Replace>
+
+	</LocalizedText>
+</GameData>

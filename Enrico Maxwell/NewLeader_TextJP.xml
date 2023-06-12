@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENRICO_MAXWELL_CHAPTER_CAPSULE_BODY" Language="ja_JP">
+			<Text>ヴァチカンの法王庁特務局第13課、通称『イスカリオテ』の機関長。教会での肩書は司教。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENRICO_MAXWELL_CHAPTER_DETAILED_BODY" Language="ja_JP">
+			<Text>ヴァチカンの法王庁特務局第13課、通称『イスカリオテ』の機関長。教会での肩書は司教。</Text>
+		</Row>
+
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ENRICO_MAXWELL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ヴァチカンの法王庁特務局第13課、通称『イスカリオテ』の機関長。教会での肩書は司教。</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_ENRICO_MAXWELL_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>ヴァチカンの法王庁特務局第13課、通称『イスカリオテ』の機関長。教会での肩書は司教。</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_MALE_1" Language="ja_JP">
+			<Text>アンデルセン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_MALE_2" Language="ja_JP">
+			<Text>ウーフー</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_MALE_3" Language="ja_JP">
+			<Text>間久部</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_MALE_4" Language="ja_JP">
+			<Text>マクスウェル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_MALE_5" Language="ja_JP">
+			<Text>ハインケル</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_1" Language="ja_JP">
+			<Text>由美江</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_2" Language="ja_JP">
+			<Text>アレクサンドラ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_3" Language="ja_JP">
+			<Text>シーマ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_4" Language="ja_JP">
+			<Text>ミネバ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_ENRICO_MAXWELL_FEMALE_5" Language="ja_JP">
+			<Text>ハモン</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_1" Language="ja_JP">
+			<Text>バチカン</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_2" Language="ja_JP">
+			<Text>サンタ・マリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_3" Language="ja_JP">
+			<Text>ラテラノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_4" Language="ja_JP">
+			<Text>ウァティカヌス</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_5" Language="ja_JP">
+			<Text>サン・ピエトロ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_6" Language="ja_JP">
+			<Text>ラティウム</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_7" Language="ja_JP">
+			<Text>テベレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_8" Language="ja_JP">
+			<Text>ガンドルフォ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_9" Language="ja_JP">
+			<Text>サン・ジョヴァンニ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_10" Language="ja_JP">
+			<Text>イン・ラテラノ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_11" Language="ja_JP">
+			<Text>サンタ・マリア</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_12" Language="ja_JP">
+			<Text>マッジョーレ</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_ENRICO_MAXWELL_CITY_13" Language="ja_JP">
+			<Text>大バジリカ</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_ENRICO_MAXWELL_QUOTE" Language="ja_JP">
+			<Text>熱狂的再征服</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_ENRICO_MAXWELL_DOM_TEXT" Language="ja_JP">
+			<Text>ヴァチカンの保有する唯一にして最強の戦力であり、カトリックの地上における神罰の代行者。今こそ神罰の地上代行者青として悪魔・化物・異教・異端の殲滅を行うのだ。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

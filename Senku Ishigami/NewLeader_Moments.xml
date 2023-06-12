@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 歴史年表用の画像 -->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" Texture="Moment_UniqueUnit_Sumerian.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE" Texture="MomentXP2_BuildingSuguba.dds"/>
+	</MomentIllustrations>
+</GameData>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Civilization -->
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_NAME" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION" Language="en_US">
+			<Text>The Majestic Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_SENKU_ISHIGAMI_ADJECTIVE" Language="en_US">
+			<Text>Super Sample Civilization</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_NAME" Language="en_US">
+			<Text>Super Sample Civilization's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION" Language="en_US">
+			<Text>One extra Wildcard policy slot in any government. Mines over strategic resources provide +1 [ICON_Gold] Gold.</Text>
+		</Row>
+
+		<!-- Leader -->
+		<Row Tag="LOC_LEADER_SENKU_ISHIGAMI_NAME" Language="en_US">
+			<Text>Super Sample Leader</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_NAME" Language="en_US">
+			<Text>Super Sample Leader's Traits</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_DESCRIPTION" Language="en_US">
+			<Text>Extra territory upon founding cities. Citizens may work Mountain tiles. Mountain tiles provide +3 [ICON_FOOD] Food.</Text>
+		</Row>
+		
+		<!-- UU -->
+		<Row Tag="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME" Language="en_US">
+			<Text>Custom War-Cart</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_DESCRIPTION" Language="en_US">
+			<Text>Super sample Civilization unique Ancient era unit. No penalties against anti-cavalry units. 4 [ICON_Movement] Movement if this unit starts in open terrain. Heals at the end of every turn, even after moving or attacking.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME" Language="en_US">
+			<Text>Super sample Civilization unique unit: Custom War-Cart</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<!-- UD -->
+		<Row Tag="LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME" Language="en_US">
+			<Text>Special Ecnomic Zone</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_DESCRIPTION" Language="en_US">
+			<Text>A district unique to Super sample Civilization. Replaces the Commercial Hub district and cheaper to build. +1 [ICON_Gold] Gold from the adjacent Industrial Zone district.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME" Language="en_US">
+			<Text>Super Sample Civilization unique district: Special Ecnomic Zone</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_GOLD_CIVILIZATION_SENKU_ISHIGAMI" Language="en_US">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Industrial Zone district.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

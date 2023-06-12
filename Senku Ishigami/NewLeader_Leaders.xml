@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="LEADER_SENKU_ISHIGAMI"       Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_SENKU_ISHIGAMI" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 指導者の主定義 -->
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SENKU_ISHIGAMI</LeaderType>
+			<Name>LOC_LEADER_SENKU_ISHIGAMI_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+	<!-- 指導者の一言メッセージ(Civilopedia) -->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SENKU_ISHIGAMI" Quote="LOC_LEADER_SENKU_ISHIGAMI_QUOTE"/>
+	</LeaderQuotes>
+	<!-- 指導者が持つ特性 -->
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SENKU_ISHIGAMI" TraitType="TRAIT_LEADER_SENKU_ISHIGAMI"/>
+	</LeaderTraits>
+	<!-- 特性の親定義(特性の名称と説明文) -->
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_SENKU_ISHIGAMI" Name="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_NAME" Description="LOC_TRAIT_LEADER_SENKU_ISHIGAMI_DESCRIPTION"/>
+	</Traits>
+	<!-- 仕様する特性の指定 -->
+	<TraitModifiers>
+		<!-- 科学力 100% -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_SCIENCE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+		</Row>
+		<!-- 文化力 100% -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+		</Row>
+		<!-- 科学力ブースと低下 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_TECHNOLOGY_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+		</Row>
+		<!-- 文化力ブースと低下 -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+		
+	</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+		<!-- 科学力 100% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!-- 文化力 100% -->
+		<Row>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TECHNOLOGY_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+		</Row>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+		<!-- 科学力 100% -->
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- 文化力 100% -->
+		<Row>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_INCREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TECHNOLOGY_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_SENKU_ISHIGAMI_BOOST_DECREASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-30</Value>
+		</Row>
+	</ModifierArguments>
+	<!--- 固有アジェンダ -->
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SENKU_ISHIGAMI" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<!-- 好む宗教 -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_SENKU_ISHIGAMI" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	<!-- AIの好みの親定義 -->
+	<AiListTypes>
+		<Row ListType="SenkuIshigamiWonders"/>
+		<Row ListType="SenkuIshigamiCivics"/>
+		<Row ListType="SenkuIshigamiTechs"/>
+		<Row ListType="SenkuIshigamiDistrict"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- 遺産 -->
+		<Row ListType="SenkuIshigamiWonders"  LeaderType="TRAIT_LEADER_SENKU_ISHIGAMI" System="Buildings"/>
+		<!-- 社会制度 -->
+		<Row ListType="SenkuIshigamiCivics"   LeaderType="TRAIT_LEADER_SENKU_ISHIGAMI" System="Civics"/>
+		<!-- テクノロジー -->
+		<Row ListType="SenkuIshigamiTechs"    LeaderType="TRAIT_LEADER_SENKU_ISHIGAMI" System="Technologies"/>
+		<!-- 区域 -->
+		<Row ListType="SenkuIshigamiDistrict" LeaderType="TRAIT_LEADER_SENKU_ISHIGAMI" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- 遺産 -->
+		<!-- 大浴場、ピラミッド、ルール地方、エルミタージュ美術館、ボリショイ劇場、エッフェル塔 -->
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_GREAT_BATH"/>
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_RUHR_VALLEY"/>
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_HERMITAGE"/>
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_BOLSHOI_THEATRE"/>
+		<Row ListType="SenkuIshigamiWonders" Item="BUILDING_EIFFEL_TOWER"/>
+		<!-- 社会制度 -->
+		<!-- 政治哲学、演劇と詩、ヒューマニズム、オペラとバレエ、都市化-->
+		<Row ListType="SenkuIshigamiCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="SenkuIshigamiCivics" Item="CIVIC_DRAMA_POETRY"/>
+		<Row ListType="SenkuIshigamiCivics" Item="CIVIC_HUMANISM"/>
+		<Row ListType="SenkuIshigamiCivics" Item="CIVIC_OPERA_BALLET"/>
+		<Row ListType="SenkuIshigamiCivics" Item="CIVIC_URBANIZATION"/>
+		<!-- テクノロジー -->
+		<!-- 弓術、通貨、徒弟制度、軍事工学、火薬、印刷、コンピューター、工業化 -->
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_ARCHERY"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_APPRENTICESHIP"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_GUNPOWDER"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_PRINTING"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_COMPUTERS"/>
+		<Row ListType="SenkuIshigamiTechs" Item="TECH_INDUSTRIALIZATION"/>
+		<!-- 区域 -->
+		<!-- 劇場広場、工業地帯 -->
+		<Row ListType="SenkuIshigamiDistrict" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="SenkuIshigamiDistrict" Item="DISTRICT_INDUSTRIAL_ZONE" Favored="true"/>
+	</AiFavoredItems>
+	<!-- 外交画面、ローディング画面 -->
+	<DiplomacyInfo>
+		<Row Type="LEADER_SENKU_ISHIGAMI" BackgroundImage="SENKU_ISHIGAMI_DiplomacyInfo_Background.dds"/>
+	</DiplomacyInfo>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_SENKU_ISHIGAMI" ForegroundImage="SENKU_ISHIGAMI_LoadingInfo_Foreground.dds" BackgroundImage="SENKU_ISHIGAMI_LoadingInfo_Background.dds" LeaderText="LOC_LEADER_SENKU_ISHIGAMI_DOM_TEXT" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+</GameData>

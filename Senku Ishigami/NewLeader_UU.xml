@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" Tag="CLASS_UBOAT"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" BaseMoves="4" Cost="200" AdvisorType="ADVISOR_CONQUEST" 
+			 BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" 
+			 Name="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME" Description="LOC_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_DESCRIPTION" 
+			 PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="5" Combat="55" 
+			 PrereqTech="TECH_STEAM_POWER" MandatoryObsoleteTech="TECH_LASERS" RangedCombat="65" Range="2" 
+			 TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART"/>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" ReplacesUnitType="UNIT_FRIGATE"/>
+	</UnitReplaces>
+	<Adjacency_YieldChanges>
+	</Adjacency_YieldChanges>
+</GameData>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- 親定義 -->
+	<Types>
+		<Row Type="CIVILIZATION_SENKU_ISHIGAMI"       Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_SENKU_ISHIGAMI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE" Kind="KIND_TRAIT"/>
+	</Types>
+	<!-- 主設定 -->
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_SENKU_ISHIGAMI</CivilizationType>
+			<Name>LOC_CIVILIZATION_SENKU_ISHIGAMI_NAME</Name>
+			<Description>LOC_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_SENKU_ISHIGAMI_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>13</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+	<!-- 文明に属する指導者 -->
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" LeaderType="LEADER_SENKU_ISHIGAMI" CapitalName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_1" />
+	</CivilizationLeaders>
+	<!-- 文明が何の特性を持つか -->
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" TraitType="TRAIT_CIVILIZATION_SENKU_ISHIGAMI" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE"/>
+	</CivilizationTraits>
+	<!-- 特性名と詳細説明の定義 -->
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SENKU_ISHIGAMI"                                      Name="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_NAME"                           Description="LOC_TRAIT_CIVILIZATION_SENKU_ISHIGAMI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART"           Name="LOC_TRAIT_CIVILIZATION_UNIT_CIVILIZATION_SENKU_ISHIGAMI_WAR_CART_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_CIVILIZATION_SENKU_ISHIGAMI_ECHONOMIC_ZONE_NAME"/>
+	</Traits>
+	<!-- 使用する特性の指定 -->
+	<TraitModifiers>
+		<!-- 経済スロット追加 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<!-- 都市国家に戦争を宣言できない。奇襲戦争を宣言できないが、他文明もカナダに奇襲戦争を宣言できない。 -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SENKU_ISHIGAMI</TraitType>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_FOR_CANADA</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<!-- 特性の個別定義 -->
+	<Modifiers>
+	</Modifiers>
+	<!-- 特性のパラメータ -->
+	<ModifierArguments>
+
+	</ModifierArguments>
+	<!-- 市民名 -->
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_1"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_2"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_3"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_4"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_MALE_5"   Female="0"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CitizenName="LOC_CITIZEN_SENKU_ISHIGAMI_FEMALE_5" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 都市名 -->
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" CityName="LOC_CIVLIZATION_SENKU_ISHIGAMI_CITY_13" />
+	</CityNames>
+
+	<!-- 開始位置補正 -->
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" FeatureType="FEATURE_FLOODPLAINS" Tier="2"/>
+	</StartBiasFeatures>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" ResourceType="RESOURCE_HORSES" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" ResourceType="RESOURCE_IRON" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_SENKU_ISHIGAMI" Tier="5"/>
+	</StartBiasRivers>
+</GameData>

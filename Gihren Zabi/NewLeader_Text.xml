@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Capsule)</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Leader specific pedia text(Detail)</Text>
+		</Row>
+		
+		<!-- Leader specific historical text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MYSUPERLEADER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Leader specific historical text</Text>
+		</Row>
+
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MYORIGINAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilization specific historical text</Text>
+		</Row>
+
+		<!-- Civlization Citizen Names -->
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_1" Language="en_US">
+			<Text>Jhon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_2" Language="en_US">
+			<Text>Charles</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_3" Language="en_US">
+			<Text>Bobby</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_4" Language="en_US">
+			<Text>Tom</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_MALE_5" Language="en_US">
+			<Text>Teddy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_1" Language="en_US">
+			<Text>Kitty</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_2" Language="en_US">
+			<Text>Curly</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_3" Language="en_US">
+			<Text>Jeanne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_4" Language="en_US">
+			<Text>Antoinette</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_MYORIGINAL_FEMALE_5" Language="en_US">
+			<Text>Elizabeth</Text>
+		</Row>
+
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_1" Language="en_US">
+			<Text>Capital</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_2" Language="en_US">
+			<Text>City1</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_3" Language="en_US">
+			<Text>City2</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_4" Language="en_US">
+			<Text>City3</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_5" Language="en_US">
+			<Text>City4</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_6" Language="en_US">
+			<Text>City5</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_7" Language="en_US">
+			<Text>City6</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_8" Language="en_US">
+			<Text>City7</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_9" Language="en_US">
+			<Text>City8</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_10" Language="en_US">
+			<Text>City9</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_11" Language="en_US">
+			<Text>City10</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_12" Language="en_US">
+			<Text>City11</Text>
+		</Row>
+		<Row Tag="LOC_CIVLIZATION_MYORIGINAL_CITY_13" Language="en_US">
+			<Text>City12</Text>
+		</Row>
+		
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_MYSUPERLEADER_QUOTE" Language="en_US">
+			<Text>Leader Quote</Text>
+		</Row>
+
+		<!-- Leader DOM -->
+		<Row Tag="LOC_LEADER_MYSUPERLEADER_DOM_TEXT" Language="en_US">
+			<Text>Loading Text</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
